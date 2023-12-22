@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7eaea; /* Rosa pastel */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0c4c4; /* Tom de rosa pastel mais escuro */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffe6e6; /* Tom de rosa pastel mais claro */
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff6666; /* Rosa mais forte para links */
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #ff6666; /* Rosa mais forte para títulos */
+}
+
+p {
+    color: #5c5c5c; /* Cinza escuro para o texto */
+}
