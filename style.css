@@ -27,6 +27,10 @@ nav a {
 
 section {
     margin: 20px;
+    text-align: center;
+    border: #ff6666;
+    border-radius: 10%;
+    box-shadow: #ff6666;
 }
 
 h2 {
