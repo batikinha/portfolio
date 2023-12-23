@@ -34,5 +34,6 @@ h2 {
 }
 
 p {
-    color: #5c5c5c; /* Cinza escuro para o texto */
+    color: #5c5c5c;
+    text-align: justify; /* Cinza escuro para o texto */
 }
