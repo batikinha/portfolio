@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #fff; /* Texto branco para contraste */
+    margin: 2%;
+    padding: 0%;
+}
+
+header {
+    background-color: #2c2c2c; /* Cinza escuro para o cabeçalho no tema escuro */
+    padding: 20px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav {
+    background-color: #2c2c2c; /* Cinza escuro para o menu no tema escuro */
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff9999; /* Tom mais claro de rosa para links no tema escuro */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6666; /* Rosa mais forte ao passar o mouse no tema escuro */
+}
+
+section {
+    margin: 5%;
+    padding: 20px;
+    background-color: #1a1a1a; /* Fundo escuro para seções no tema escuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adapte a sombra conforme necessário */
+    text-align: justify;
+    line-height: 0.8cm;
+}
+
+.section-title {
+    color: #ff9999; /* Tom mais claro de rosa para títulos de seção no tema escuro */
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    background-color: #2c2c2c; /* Cinza escuro para o rodapé no tema escuro */
+    padding: 2%;
+    text-align: center;
+    color: #fff; /* Texto branco para contraste no rodapé do tema escuro */
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#kitty-pointer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url('img/nyancatt.png');
+    background-size: cover;
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.1s ease-out;
+}
+
+/* Efeito de arco-íris quando o mouse está na tela */
+#kitty-pointer.rainbow-effect {
+    filter: hue-rotate(360deg);
+}
+.cute-gif1 {
+    width: auto; /* Largura desejada */
+    height: 300px; /* Altura desejada */
+    margin-left: 36%; /* Margem ao redor do gif, ajuste conforme necessário */
+    margin-right: 35%;
+}
+
+.cute-gif2 {
+    width: auto; /* Largura desejada */
+    height: 300px; /* Altura desejada */
+    margin-left: 26%; /* Margem ao redor do gif, ajuste conforme necessário */
+    margin-right: 25%;
+}
+
+.cute-gif3 {
+}
