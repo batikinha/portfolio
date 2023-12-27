@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1a1a1a; /* Fundo escuro */
-    color: #fff; /* Texto branco para contraste */
+    background-color: #1a1a1a; 
+    color: #fff; 
     margin: 2%;
     padding: 0%;
 }
@@ -88,19 +88,10 @@ footer {
 #kitty-pointer.rainbow-effect {
     filter: hue-rotate(360deg);
 }
-.cute-gif1 {
-    width: auto; /* Largura desejada */
-    height: 300px; /* Altura desejada */
-    margin-left: 36%; /* Margem ao redor do gif, ajuste conforme necessário */
-    margin-right: 35%;
-}
 
-.cute-gif2 {
-    width: auto; /* Largura desejada */
-    height: 300px; /* Altura desejada */
-    margin-left: 26%; /* Margem ao redor do gif, ajuste conforme necessário */
-    margin-right: 25%;
-}
-
-.cute-gif3 {
+.cute-gif {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
