@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .menu a {
+        padding: 10px;
+    }
+}
