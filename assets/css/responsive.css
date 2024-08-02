@@ -7,4 +7,28 @@
     .menu a {
         padding: 10px;
     }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header h2 {
+        font-size: 1.2em;
+    }
+
+    ol li img {
+        max-width: 80px; 
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+
+    .section h1 {
+        font-size: 2em;
+    }
+
+    .section h2 {
+        font-size: 1.2em;
+    }
 }
